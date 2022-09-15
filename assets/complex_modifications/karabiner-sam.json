@@ -1,7 +1,32 @@
 {
   "title": "A Sam's Modifications",
   "rules": [
-    
+    {
+      "description": "Universal Clipboard alias",
+      "manipulators": [
+          {
+              "from": {
+                  "key_code": "v",
+                  "modifiers": {
+                      "mandatory": [
+                          "control",
+                          "shift"
+                      ]
+                  }
+              },
+              "to": [
+                  {
+                      "key_code": "v",
+                      "modifiers": [
+                          "command",
+                          "shift"
+                      ]
+                  }
+              ],
+              "type": "basic"
+          }
+      ]
+  },
     {
         "description": "vCapsLock, vEnter",
         "manipulators": [
