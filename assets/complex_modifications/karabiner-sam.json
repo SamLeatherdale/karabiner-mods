@@ -2,6 +2,30 @@
     "title": "A Sam's Modifications",
     "rules": [
         {
+            "description": "Autocomplete",
+            "manipulators": [
+                {
+                    "from": {
+                        "key_code": "spacebar",
+                        "modifiers": {
+                            "mandatory": [
+                                "command"
+                            ]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "spacebar",
+                            "modifiers": [
+                                "control"
+                            ]
+                        }
+                    ],
+                    "type": "basic"
+                }
+            ]
+        },
+        {
             "description": "Universal Clipboard alias",
             "manipulators": [
                 {
